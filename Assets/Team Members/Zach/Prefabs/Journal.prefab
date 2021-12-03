@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3912739425246468499
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8787446549938081303}
+  - component: {fileID: 1974989304968111984}
+  - component: {fileID: 299980237}
+  m_Layer: 0
+  m_Name: Journal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8787446549938081303
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3912739425246468499}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 66.72623, y: -92.58067, z: -38.241673}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1974989304968111984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3912739425246468499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cb7c2baf3bf1c24ea5352840bcbe093, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerJournal: {fileID: 0}
+  suspectRef: {fileID: 0}
+  npcInfos: []
+  suspectEntries: []
+  suspectPagePositions:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  currentSuspectReference: {fileID: 1756861197565590426, guid: 3e013b2c3d51abd40a61077841f26824, type: 3}
+  posCounter: 0
+  suspectTesting: 0
+  suspectName: {fileID: 0}
+  suspectLocations: {fileID: 0}
+  mugShot: {fileID: 0}
+  masterMind: {fileID: 299980237}
+--- !u!114 &299980237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3912739425246468499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c653725546334d449aacd6606e1bde4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  journalModel: {fileID: 1974989304968111984}
+  currentlyAccused: []
+  npcDetails: []
+  currentRoundBools: 
+  heistCounter: 0
